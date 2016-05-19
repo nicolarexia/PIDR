@@ -14,4 +14,4 @@ Cette commande a pour effet de déployer la partie serveur de l'application et d
 
 - L'application est utilisable ! Pour décrire une scène, remplir le champ situé en bas à droite de la page et cliquer sur "link code to description"
 
--Pour récupérer les données des utilisateurs via l'interface MongoDB, lancer le shell mongo à l'aide de la commande "mongo" puis sélectionner la base de données "dbPLMDescription" à l'aide de la commande "use dbPLMDescription". Les données recherchées se trouvent alors dans la collection "codeToDescription", affichables à l'aide de la commande "db.codeToDescription.find().
+- Pour récupérer les données des utilisateurs via l'interface MongoDB, lancer le shell mongo à l'aide de la commande "mongo" puis sélectionner la base de données "dbPLMDescription" à l'aide de la commande "use dbPLMDescription". Les données recherchées se trouvent alors dans la collection "codeToDescription", affichables à l'aide de la commande "db.codeToDescription.find().
