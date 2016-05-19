@@ -7,7 +7,7 @@ La procédure d'installation de l'environnement webPLM appliquée à notre proje
 
 - D'abord, extraire l'archive .zip sur la machine censée faire office de serveur. Le framework scala "Play" doit être préalablement installé.
 
-- Dans un terminal, exécuter la commande suivante : ./activator start
+- Dans un terminal, exécuter la commande suivante : "./activator start".
 Cette commande a pour effet de déployer la partie serveur de l'application et de la rendre accessible sur un port particulier (ici le port 9000)
 
 - S'assurer de la présence d'une instance de mongodb sur le serveur. Si ce n'est pas le cas, l'installer, et démarrer le service associé à l'aide de la commande "service mongodb start"
